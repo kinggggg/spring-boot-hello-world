@@ -1,0 +1,3 @@
+person.lastName=hello
+person.age=18
+person.dog.name=${person.lastName}_dog

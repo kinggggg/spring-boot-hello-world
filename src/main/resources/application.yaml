@@ -1,0 +1,5 @@
+person:
+  last-name: hello #注释掉这一行后，由于dog.name对此项有引用，视频中报错，但是这里没有报错
+  age: 18
+  dog:
+    name: ${person.last-name}_dog
